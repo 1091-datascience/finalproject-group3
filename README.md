@@ -16,7 +16,7 @@ Reproduce our result
 Rscript code/your_script.R --fold n --input data/training.csv --report performance.csv --predict predict.csv
 
 ```
-* any on-line visualization
+* Online visualization
   * Shiny
   https://kennyshen880520.shinyapps.io/DataScienceFinalProject/
 
@@ -31,7 +31,7 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 ### data
 
 * Source
-  * Kaggle-Telco Customer Churn
+  * Kaggle - Telco Customer Churn
   https://www.kaggle.com/blastchar/telco-customer-churn
   ![Source](docs/source.png)
 * Input format
