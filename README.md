@@ -1,4 +1,4 @@
-# [Group3] Prediction of Telco Customer Churn 客戶流失率預測
+# [Group3] Prediction of Telco Customer Churn 
 
 ### Groups
 * 陳采宗 統計三 107304004
