@@ -1,5 +1,5 @@
 # [Group3] 
-# Kaggle客戶流失率預測—Prediction of Telco Customer Churn
+Kaggle客戶流失率預測—Prediction of Telco Customer Churn
 
 ### Groups
 * 陳采宗 統計三 107304004
