@@ -31,11 +31,11 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 
 * Source
   * (https://www.kaggle.com/blastchar/telco-customer-churn)
-  ![Source](source.png)
+  ![Source](docs/source.png)
 * Input format
   * The whole data is a csv file.
   * Format of each input:
-  ![InputFormat](input_format.png)
+  ![InputFormat](docs/input_format.png)
 
 * Data features
   * customerID: Customer ID
@@ -60,7 +60,7 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
   * MonthlyCharges: The fee that customer pays every month.
   * TotalCharges: The total fee that customer pays
   * Churn: Whether the customer will be churn or not (Yes, No)
- ![VariableDescription](variable_description.png)
+ ![VariableDescription](docs/variable_description.png)
 * Any preprocessing?
   * Handle missing data with package mice
   * Change (1,0) in column SeniorCitizen into (Yes, No)
@@ -96,12 +96,12 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
   * library(party)
 
 * Related publications
-  * Telco Customer Churn
-  (https://www.kaggle.com/blastchar/telco-customer-churn)
-  * 我如何分析客戶流失預測？Kaggle比賽思路分享 
-  (https://reurl.cc/3N1MgM)
-  * Shiny Data-Tables Demo
-  (https://shiny.rstudio.com/gallery/datatables-demo.html)
+  * ![Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
+  https://www.kaggle.com/blastchar/telco-customer-churn
+  * ![我如何分析客戶流失預測？Kaggle比賽思路分享](https://reurl.cc/3N1MgM)
+  https://reurl.cc/3N1MgM
+  * ![Shiny Data-Tables Demo]( https://shiny.rstudio.com/gallery/datatables-demo.html)
+  https://shiny.rstudio.com/gallery/datatables-demo.html
 
   
 
