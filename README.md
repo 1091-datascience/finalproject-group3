@@ -1,5 +1,4 @@
-# [Group3] 
-Kaggle客戶流失率預測—Prediction of Telco Customer Churn
+# [Group3] Prediction of Telco Customer Churn 客戶流失率預測
 
 ### Groups
 * 陳采宗 統計三 107304004
@@ -32,7 +31,8 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 ### data
 
 * Source
-  * https://www.kaggle.com/blastchar/telco-customer-churn
+  * Kaggle-Telco Customer Churn
+  https://www.kaggle.com/blastchar/telco-customer-churn
   ![Source](docs/source.png)
 * Input format
   * The whole data is a csv file.
