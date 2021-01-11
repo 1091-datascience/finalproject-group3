@@ -1,4 +1,5 @@
-# [Group3] Kaggle客戶流失率預測—Prediction of Telco Customer Churn
+# [Group3] 
+# Kaggle客戶流失率預測—Prediction of Telco Customer Churn
 
 ### Groups
 * 陳采宗 統計三 107304004
@@ -17,7 +18,8 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 
 ```
 * any on-line visualization
-[Shiny](https://kennyshen880520.shinyapps.io/DataScienceFinalProject/)
+  * Shiny
+  https://kennyshen880520.shinyapps.io/DataScienceFinalProject/
 
 ## Folder organization and its related information
 
@@ -30,7 +32,7 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 ### data
 
 * Source
-  * (https://www.kaggle.com/blastchar/telco-customer-churn)
+  * https://www.kaggle.com/blastchar/telco-customer-churn
   ![Source](docs/source.png)
 * Input format
   * The whole data is a csv file.
@@ -64,7 +66,6 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 * Any preprocessing?
   * Handle missing data with package mice
   * Change (1,0) in column SeniorCitizen into (Yes, No)
-  * (pic str(data))
 
 ### code
 
@@ -96,11 +97,11 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
   * library(party)
 
 * Related publications
-  * ![Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
+  * Telco Customer Churn
   https://www.kaggle.com/blastchar/telco-customer-churn
-  * ![我如何分析客戶流失預測？Kaggle比賽思路分享](https://reurl.cc/3N1MgM)
+  * 我如何分析客戶流失預測？Kaggle比賽思路分享
   https://reurl.cc/3N1MgM
-  * ![Shiny Data-Tables Demo]( https://shiny.rstudio.com/gallery/datatables-demo.html)
+  * Shiny Data-Tables Demo 
   https://shiny.rstudio.com/gallery/datatables-demo.html
 
   
