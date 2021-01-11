@@ -2,7 +2,7 @@
 
 ### Groups
 * 陳采宗 統計三 107304004
-* 沈冠宇 統計三 107304008
+* 沈冠宇 統計三 107304041
 * 林盈盈 統計三 107304018
 * 鄭雅云 統計三 107304020
 
@@ -85,7 +85,11 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 * Is your improvement significant?
   
 * What is the challenge part of your project?
-
+  * 無法突破 null model的accuracy
+  * feature大多都是類別型變數 操作空間不大
+  * EDA觀察看出的趨勢並不等於model幫我們挑出的顯著變數
+  * 使用stepwise挑選變數後依然無顯著提升
+  
 ## References
 * Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
 * Packages you use
@@ -95,6 +99,7 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
   * library(ggplot2)
   * library(randomForest) 
   * library(party)
+  * library(shiny)
 
 * Related publications
   * Telco Customer Churn
