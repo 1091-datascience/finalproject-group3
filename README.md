@@ -81,7 +81,7 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 
 ### results
 * Which metric do you use
-  * precision, recall, R-square
+  * Accuracy
 * Is your improvement significant?
   
 * What is the challenge part of your project?
