@@ -1,0 +1,22 @@
+Variable,Introduction,Input Format
+customerID,Customer ID,string
+gender,Whether the customer is a male or a female,binary
+SeniorCitizen,Whether the customer is a senior citizen or not?,binary
+Partner,Whether the customer has a partner or not,binary
+Dependents,Whether the customer has dependents or not,binary
+tenure,Number of months the customer has stayed with the company,integer
+PhoneService,"Whether the customer has a phone service or not (Yes, No)",binary
+MultipleLines,"Whether the customer has multiple lines or not (Yes, No, No phone service)",multinomial
+InternetService,Customer's internet service provider,multinomial
+OnlineSecurity,Whether the customer has online security or not,multinomial
+OnlineBackup,Whether the customer has online backup or not,multinomial
+DeviceProtection,Whether the customer has device protection or not,multinomial
+TechSupport,Whether the customer has tech support or not?,multinomial
+StreamingTV,Whether the customer has streaming TV or not?,multinomial
+StreamingMovies,Whether the customer has streaming movies or not,multinomial
+Contract,"The contract term of the customer (Month-to-month, One year, Two year)",multinomial
+PaperlessBilling,Whether the customer has paperless billing or not,binary
+PaymentMethod,"The customer's payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))",multinomial
+MonthlyCharges,The amount charged to the customer monthly,numeric
+TotalCharges,The total amount charged to the customer,numeric
+Churn(target),Whether the customer churned or not,binary

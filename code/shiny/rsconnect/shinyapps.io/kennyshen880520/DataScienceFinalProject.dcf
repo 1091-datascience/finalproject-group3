@@ -1,0 +1,12 @@
+name: DataScienceFinalProject
+title: DataScienceFinalProject
+username:
+account: kennyshen880520
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3461249
+bundleId: 4082861
+url: https://kennyshen880520.shinyapps.io/DataScienceFinalProject/
+when: 1610385069.93246
+asMultiple: FALSE
+asStatic: FALSE
