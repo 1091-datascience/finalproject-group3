@@ -74,7 +74,7 @@ Rscript code/your_script.R --fold n --input data/rawdata.csv --report performanc
   * Decison Tree
   * Random Forest
 * What is a null model for comparison?
-
+  * All output is 0 ,the model accuracy is 73%.
 * How do your perform evaluation?
   * Split data into training, validation, and testing
   * K-fold cross validation

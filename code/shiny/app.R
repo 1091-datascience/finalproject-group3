@@ -129,7 +129,11 @@ ui <- fluidPage(
                 
                 tabPanel( "Summary" ),
                 
-                tabPanel( "Challenges" ),
+                tabPanel( "Challenges",h1("Challenges"),br(),br(),
+                          h3("1. 無法突破 null model的accuracy"),
+                          h3("2. feature大多都是類別型變數 操作空間不大"),
+                          h3("3. EDA觀察看出的趨勢並不等於model幫我們挑出的顯著變數"),
+                          h3("4 .使用stepwise挑選變數後依然無顯著提升") ),
                 
                 tabPanel( "Reference",h1("Reference"),br(),
                           h2("Data Source"),br(),
