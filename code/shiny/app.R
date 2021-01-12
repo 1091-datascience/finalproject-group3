@@ -127,9 +127,18 @@ ui <- fluidPage(
                           img(src="totalCharges0.png",height="40%",width="40%") ),
                           
                 
-                tabPanel( "Summary" ),
+                tabPanel( "Summary",h1("Summary"),br(),
+                          h3("雖然經過反覆測試，但 test_accuracy 仍然無法突破0.8"),
+                          h3("但經過努力，我們解決了 randomForest 的 overfittting 的問題"),
+                          h3("logistic 各個 fold 之間的 accuracy 也趨近穩定，0.8的 accuracy 遠大於 null model"),
+                          h3("但可能已經是極限"),
+                          br(),h1("Conclusion"),br(),
+                          img(src="conclusion1.png",height="60%",width="60%"),br(),br(),
+                          img(src="conclusion2.png",height="60%",width="60%"),br(),br(),br(),br()
+  
+                          ),
                 
-                tabPanel( "Challenges",h1("Challenges"),br(),br(),
+                tabPanel( "Challetnges",h1("Challenges"),br(),br(),
                           h3("1. 無法突破 null model的accuracy"),
                           h3("2. feature大多都是類別型變數 操作空間不大"),
                           h3("3. EDA觀察看出的趨勢並不等於model幫我們挑出的顯著變數"),

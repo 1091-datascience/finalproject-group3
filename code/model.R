@@ -111,14 +111,14 @@ for (i in 1:k){
                      TechSupport + StreamingTV + StreamingMovies + Contract + 
                      PaperlessBilling + PaymentMethod + TotalCharges, data = f_train, family = "binomial")
     #final prediction
-    test_result <- predict(f_model, newdata = d_test)
+    test_result <- predict(flm_model, newdata = d_test)
     test_pred <- table(test_result>.5, d_test$Churn)
     test_accuracy2 <- (test_pred[1,1]+test_pred[2,2])/sum(test_pred)
     #accuracy performance
     accuracy[i+1,2] <- round(train_accuracy2, digits = 2)
     accuracy[i+1,3] <- round(validation_accuracy2, digits = 2)
     accuracy[i+1,4] <- round(test_accuracy2, digits = 2)
-  }else if(i<(k+10)/3){
+  }else if(i<(k*2+1)/3){
     accuracy[i+1,1]<-paste("rpart", i, sep="")
     #train model
     model <- rpart(Churn ~ SeniorCitizen + Dependents + tenure + PhoneService + 
@@ -187,7 +187,7 @@ accuracy[k+2,4] <- round(mean(as.numeric(accuracy[(2:(k+1)),4])), digit=2)
 print(accuracy)
 
 test_pred <- data.frame(predict(flm_model, newdata = d_test, type = "response"))
-test_pred[,2] <- test_pred[,1]
+test_pred[,2] <- ifelse(test_pred[,1]>.5, "Yes", "No")
 test_pred[,1] <- c(1:nrow(test_pred))
 colnames(test_pred) <- c("Id", "Churn")
 View(test_pred)
@@ -195,7 +195,7 @@ View(test_pred)
 write.table(accuracy, file=args[6], sep=',', row.names = F, col.names = F, quote = F)
 write.table(test_pred, file=args[8], sep=',', row.names = F, quote = F)
 
-summary(model)
-summary(f_model)
-step(model)
+#summary(model)
+#summary(f_model)
+#step(model)
 
