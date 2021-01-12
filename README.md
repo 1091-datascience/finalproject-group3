@@ -83,7 +83,7 @@ Rscript code/your_script.R --fold n --input data/rawdata.csv --report performanc
 * Which metric do you use
   * Accuracy
 * Is your improvement significant?
-  *雖然經過反覆測試，但test_accuracy仍然無法突破0.8，但經過努力，我們解決了randomForest的overfittting的問題、logistic各個fold之間的accuracy也趨近穩定，0.8的accuracy遠大於null model，但可能已經是極限
+  * 雖然經過反覆測試，但test_accuracy仍然無法突破0.8，但經過努力，我們解決了randomForest的overfittting的問題、logistic各個fold之間的accuracy也趨近穩定，0.8的accuracy遠大於null model，但可能已經是極限
 
 * What is the challenge part of your project?
   * 無法突破原始 model的accuracy
