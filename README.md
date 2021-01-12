@@ -13,8 +13,7 @@ The goal is to predict whether the customer will be churn or not.
 ### Demo
 Reproduce our result  
 ```R
-Rscript code/your_script.R --fold n --input data/rawdata.csv --report performance.csv --predict predict.csv
-
+Rscript model.R --fold 9 --input data.csv  --report performance.csv --predict predict.csv
 ```
 * Online visualization
   * Shiny
