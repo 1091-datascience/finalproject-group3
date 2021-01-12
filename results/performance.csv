@@ -1,0 +1,11 @@
+set,training,validation,test
+logistic1,0.79,0.78,0.8
+logistic2,0.79,0.81,0.78
+logistic3,0.79,0.8,0.8
+rpart4,0.8,0.77,0.78
+rpart5,0.79,0.8,0.77
+rpart6,0.79,0.81,0.8
+randomforest7,0.83,0.8,0.81
+randomforest8,0.83,0.81,0.8
+randomforest9,0.83,0.8,0.81
+ave.,0.8,0.8,0.79
