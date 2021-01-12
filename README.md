@@ -13,7 +13,7 @@ The goal is to predict whether the customer will be churn or not.
 ### Demo
 Reproduce our result  
 ```R
-Rscript code/your_script.R --fold n --input data/training.csv --report performance.csv --predict predict.csv
+Rscript code/your_script.R --fold n --input data/rawdata.csv --report performance.csv --predict predict.csv
 
 ```
 * Online visualization
@@ -74,7 +74,7 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
   * Decison Tree
   * Random Forest
 * What is a null model for comparison?
-
+  * All output is 0 ,the model accuracy is 73%.
 * How do your perform evaluation?
   * Split data into training, validation, and testing
   * K-fold cross validation
@@ -85,7 +85,7 @@ Rscript code/your_script.R --fold n --input data/training.csv --report performan
 * Is your improvement significant?
   
 * What is the challenge part of your project?
-  * 無法突破 null model的accuracy
+  * 無法突破原始 model的accuracy
   * feature大多都是類別型變數 操作空間不大
   * EDA觀察看出的趨勢並不等於model幫我們挑出的顯著變數
   * 使用stepwise挑選變數後依然無顯著提升
